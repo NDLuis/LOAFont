@@ -18,7 +18,7 @@ internal class Program
         string localFontFile = Path.Combine(AppContext.BaseDirectory, FontFile);
         if (!File.Exists(localFontFile))
         {
-            Notify($"{FontFile} was not found. \nPlace it next to LOAFont.exe and make sure the file name and extension are {FontFile}.");
+            Notify($"Custom font was not found. \nPlace it next to LOAFont.exe and make sure it's named {FontFile}.");
             return;
         }
 
@@ -41,6 +41,7 @@ internal class Program
         string gameExe = args[1]; // The second argument is the game executable path.
         string[] gameArgs = args[2..]; // The rest are the game arguments.
 
+        // Launch the game.
         Process.Start(new ProcessStartInfo
         {
             FileName = gameExe,
