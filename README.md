@@ -3,7 +3,7 @@ A small tool that automatically replaces **Lost Ark’s** `font.lpk` with a cust
 
 It uses **Steam Launch Options** to ensure the custom font is applied every time the game launches.
 
-## 🛠 How It Works
+## How It Works
 - Steam launches `LOAFont.exe` instead of the game executable.
 - The tool:
     - Locates Lost Ark's installation directory using Steam's `libraryfolders.vdf`.
@@ -12,7 +12,7 @@ It uses **Steam Launch Options** to ensure the custom font is applied every time
     - Replaces the original font file with the custom one.
     - Launches the game using Steam’s `%command%` arguments.
 
-## 🚀 Installation
+## Installation
 1. Download the latest release.
 2. Place your custom `font.lpk` in the same folder as `LOAFont.exe`.
 3. Open Steam and go to Library.
@@ -23,14 +23,14 @@ It uses **Steam Launch Options** to ensure the custom font is applied every time
 ```
 6. Launch the game normally through Steam.
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 LOAFont/
 ├── font.lpk (custom)
 └── LOAFont.exe
 ```
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is not affiliated with or endorsed by Amazon Games or Smilegate.  
 Use at your own risk. Always keep backups of original game files.
