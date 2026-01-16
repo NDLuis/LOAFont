@@ -23,13 +23,6 @@ It uses **Steam Launch Options** to ensure the custom font is applied every time
 ```
 6. Launch the game normally through Steam.
 
-## Folder Structure
-```
-LOAFont/
-├── font.lpk (custom)
-└── LOAFont.exe
-```
-
 ## Disclaimer
 
 This project is not affiliated with or endorsed by Amazon Games or Smilegate.  
